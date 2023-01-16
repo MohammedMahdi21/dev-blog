@@ -1,0 +1,27 @@
+.home{
+
+  .posts{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+
+    .post{
+      display: flex;
+      gap: 100px;
+      .img{
+        flex: 2;
+
+        img{
+          width: 100%;
+          max-height: 400px;
+          object-fit: cover;
+        }
+      }
+
+      .content{
+        flex: 3;
+      }
+    }
+  }
+}
