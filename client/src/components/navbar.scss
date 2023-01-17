@@ -2,32 +2,34 @@
 
 $lightGreen: #b9e7e7;
 
-.navbar{
-  .container{
+.navbar {
+  .container {
     padding: 10px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    .logo{
-      img{
+
+    .logo {
+      img {
         width: 120px;
       }
     }
-    .links{
+
+    .links {
       display: flex;
       align-items: center;
       gap: 10px;
 
-      h6{
+      h6 {
         font-size: 16px;
         font-weight: 300;
       }
 
-      span{
+      span {
         cursor: pointer;
       }
 
-      .write{
+      .write {
         background-color: $lightGreen;
         width: 50px;
         height: 50px;
@@ -38,7 +40,7 @@ $lightGreen: #b9e7e7;
         font-weight: 300;
         border: 1px solid white;
 
-        &:hover{
+        &:hover {
           color: teal;
           background-color: white;
           border: 1px solid teal;

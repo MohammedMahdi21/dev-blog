@@ -1,10 +1,11 @@
-.app{
+.app {
   display: flex;
   justify-content: center;
-  .container{
+
+  .container {
     width: 1024px;
 
-    .link{
+    .link {
       text-decoration: none;
       color: inherit;
     }
