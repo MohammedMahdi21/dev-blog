@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import "./navbar.scss"
 import Logo from "../img/blog-logo.png"
 
@@ -9,20 +9,20 @@ const Navbar = () => {
       <div className="container">
         <div className="logo"><img src={Logo} alt="" /></div>
         <div className="links">
-        <Link className='link' to="/?cat=art">
-          <h6>ART</h6>
+          <Link className='link' to="/?cat=art">
+            <h6>ART</h6>
           </Link>
           <Link className='link' to="/?cat=art">
-          <h6>SCIENCE</h6>
+            <h6>SCIENCE</h6>
           </Link>
           <Link className='link' to="/?cat=art">
-          <h6>TECHNOLOGY</h6>
+            <h6>TECHNOLOGY</h6>
           </Link>
           <Link className='link' to="/?cat=art">
-          <h6>CINEMA</h6>
+            <h6>CINEMA</h6>
           </Link>
           <Link className='link' to="/?cat=art">
-          <h6>DESIGN</h6>
+            <h6>DESIGN</h6>
           </Link>
           <span>Moe</span>
           <span>Logout</span>
