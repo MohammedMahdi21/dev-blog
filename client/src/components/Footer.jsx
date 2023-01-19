@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <img src={Logo} alt=""/>
-      <span>Made with 🖤 by <b>Mohammed Mahdi</b> a full-stack developer</span>
+      <span>Made with ❤️ by <b>Mohammed Mahdi</b> a full-stack developer</span>
     </footer>
   )
 }
