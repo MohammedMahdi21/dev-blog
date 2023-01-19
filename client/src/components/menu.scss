@@ -4,17 +4,17 @@
   flex-direction: column;
   gap: 25px;
 
-  h1{
+  h1 {
     font-size: 20px;
     color: #555;
   }
 
-  .post{
+  .post {
     display: flex;
     flex-direction: column;
     gap: 10px;
 
-    img{
+    img {
       width: 100%;
       height: 200px;
       object-fit: cover;
