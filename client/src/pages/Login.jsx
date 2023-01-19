@@ -5,7 +5,6 @@ import "./login.scss"
 const Login = () => {
   return (
     <div className="auth">
-
       <h1>Login</h1>
       <form>
         <input required type="text" placeholder='username' />
@@ -16,7 +15,6 @@ const Login = () => {
           Don't you have an account? <Link to="/register">Register</Link>
         </span>
       </form>
-      
     </div>
   )
 }
