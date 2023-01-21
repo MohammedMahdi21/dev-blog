@@ -30,7 +30,7 @@ const Write = () => {
             <button>Update</button>
           </div>
         </div>
-          <h1>Category</h1>
+        <h1>Category</h1>
         <div className="item">
           <div className="cat">
             <input type="radio" name="cat" value="art" id="art" />
