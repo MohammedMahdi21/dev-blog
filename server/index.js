@@ -5,5 +5,5 @@ const app = express()
 app.use(express.json())
 
 app.listen(8800, () => {
-  console.log("Connected!")
+  console.log("Connected on port 8800!")
 })
