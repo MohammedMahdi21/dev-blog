@@ -30,6 +30,9 @@ const Single = () => {
             <br />
             <br />
             He focuses on data-driven design products and brand strategies that delight customers. He has changed the way organizations solve problems as well as produced world-class B2B and B2C interfaces.
+            <br />
+            <br />
+            He focuses on data-driven design products and brand strategies that delight customers. He has changed the way organizations solve problems as well as produced world-class B2B and B2C interfaces.
           </p>
         </p>
       </div>
