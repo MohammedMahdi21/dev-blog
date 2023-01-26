@@ -20,7 +20,6 @@ const Register = () => {
     try {
 
       const res = await axios.post("/auth/register", inputs);
-      console.log("this is resp",res)
 
     } catch (err) {
 
