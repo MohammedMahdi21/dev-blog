@@ -5,7 +5,7 @@ import "./footer.scss"
 const Footer = () => {
   return (
     <footer>
-      <img src={Logo} alt=""/>
+      <img src={Logo} alt="" />
       <span>Made with ❤️ by <b>Mohammed Mahdi</b> a full-stack developer</span>
     </footer>
   )
