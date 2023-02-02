@@ -29,12 +29,13 @@ const Single = () => {
     };
     fetchData()
   }, [postId])
+
   return (
     <div className="single">
       <div className="content">
         <img src={post?.img} alt="" />
         <div className="user">
-          <img src="https://uploads.toptal.io/profile_photo/image/user/714881/large_45b43ef21e76b273e3e72ffea850f56e.jpg" alt="" />
+          {post.userImg && <img src={post.userImg} alt="" />}
           <div className="info">
             <span>{post.username}</span>
             <p>Posted {moment(post.data).fromNow()}</p>
