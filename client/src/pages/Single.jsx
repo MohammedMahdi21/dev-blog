@@ -48,7 +48,7 @@ const Single = () => {
           {post.userImg && <img src={post.userImg} alt="" />}
           <div className="info">
             <span>{post.username}</span>
-            <p>Posted {moment(post.data).fromNow()}</p>
+            <p>Posted {moment(post.date).fromNow()}</p>
           </div>
           {currentUser.username === post.username && <div className="edit">
             <Link to={`/write?edit=2`}>
@@ -60,7 +60,7 @@ const Single = () => {
         <h1>{post.title}</h1>
         {post.desc}
       </div>
-      <Menu />
+      <Menu cat={post.cat}/>
     </div>
   )
 }
