@@ -1,7 +1,8 @@
 import React, { useState } from "react"
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
-import "./write.scss"
+import axios from 'axios';
+import "./write.scss";
 const Write = () => {
 
   const [value, setValue] = useState('');
@@ -9,7 +10,21 @@ const Write = () => {
   const [file, setFile] = useState(null);
   const [cat, setCat] = useState("");
 
-  const handleClick = async 
+  const upload = async () => {
+    try {
+      const formData = new FormData();
+      formData.append("file", file)
+      const res = await axios.post("/upload", formData)
+      console.log(res.data)
+    } catch (err) {
+      console.log(err)
+    }
+  }
+
+  const handleClick = async e => {
+    e.preventDefault()
+    upload()
+  }
 
   return (
     <div className="add">
@@ -38,27 +53,27 @@ const Write = () => {
         <h1>Category</h1>
         <div className="item">
           <div className="cat">
-            <input type="radio" name="cat" value="art" id="art" onChange={e => setCat(e.target.value)}/>
+            <input type="radio" name="cat" value="art" id="art" onChange={e => setCat(e.target.value)} />
             <label htmlFor="art">Art</label>
           </div>
           <div className="cat">
-            <input type="radio" name="cat" value="science" id="science" onChange={e => setCat(e.target.value)}/>
+            <input type="radio" name="cat" value="science" id="science" onChange={e => setCat(e.target.value)} />
             <label htmlFor="art">Science</label>
           </div>
           <div className="cat">
-            <input type="radio" name="cat" value="technology" id="technology" onChange={e => setCat(e.target.value)}/>
+            <input type="radio" name="cat" value="technology" id="technology" onChange={e => setCat(e.target.value)} />
             <label htmlFor="art">Technology</label>
           </div>
           <div className="cat">
-            <input type="radio" name="cat" value="cinema" id="cinema" onChange={e => setCat(e.target.value)}/>
+            <input type="radio" name="cat" value="cinema" id="cinema" onChange={e => setCat(e.target.value)} />
             <label htmlFor="art">Cinema</label>
           </div>
           <div className="cat">
-            <input type="radio" name="cat" value="design" id="design" onChange={e => setCat(e.target.value)}/>
+            <input type="radio" name="cat" value="design" id="design" onChange={e => setCat(e.target.value)} />
             <label htmlFor="art">Design</label>
           </div>
           <div className="cat">
-            <input type="radio" name="cat" value="food" id="food" onChange={e => setCat(e.target.value)}/>
+            <input type="radio" name="cat" value="food" id="food" onChange={e => setCat(e.target.value)} />
             <label htmlFor="art">Food</label>
           </div>
         </div>
