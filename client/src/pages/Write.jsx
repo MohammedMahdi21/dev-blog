@@ -3,11 +3,12 @@ import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 import axios from 'axios';
 import "./write.scss";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import moment from "moment";
 const Write = () => {
 
-  const state = useLocation().state
+  const navigate = useNavigate();
+  const state = useLocation().state;
   const [value, setValue] = useState(state?.desc || '');
   const [title, setTitle] = useState(state?.title || '');
   const [file, setFile] = useState(null);
@@ -43,6 +44,7 @@ const Write = () => {
           img: file ? imgUrl : "",
           date: moment(Date.now()).format("YYYY-MM-DD HH:mm:ss"),
         });
+      navigate("/")
     } catch (err) {
 
     }
