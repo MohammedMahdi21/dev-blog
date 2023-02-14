@@ -89,16 +89,8 @@ const Write = () => {
             <label htmlFor="art">Technology</label>
           </div>
           <div className="cat">
-            <input type="radio" checked={cat === "cinema"} name="cat" value="cinema" id="cinema" onChange={e => setCat(e.target.value)} />
-            <label htmlFor="art">Cinema</label>
-          </div>
-          <div className="cat">
             <input type="radio" checked={cat === "design"} name="cat" value="design" id="design" onChange={e => setCat(e.target.value)} />
             <label htmlFor="art">Design</label>
-          </div>
-          <div className="cat">
-            <input type="radio" checked={cat === "food"} name="cat" value="food" id="food" onChange={e => setCat(e.target.value)} />
-            <label htmlFor="art">Food</label>
           </div>
         </div>
       </div>
