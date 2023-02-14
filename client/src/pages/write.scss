@@ -57,17 +57,17 @@
 
         :first-child {
           cursor: pointer;
-          color: teal;
+          color: #424874;
           background-color: white;
-          border: 1px solid teal;
+          border: 1px solid #424874;
           padding: 3px 5px;
         }
 
         :last-child {
           cursor: pointer;
           color: white;
-          background-color: teal;
-          border: 1px solid teal;
+          background-color: #424874;
+          border: 1px solid #424874;
           padding: 3px 5px;
         }
       }
@@ -76,7 +76,7 @@
         display: flex;
         align-items: center;
         gap: 2px;
-        color: teal;
+        color: #424874;
       }
     }
   }

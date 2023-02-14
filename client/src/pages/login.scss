@@ -1,16 +1,16 @@
-$lightRed: #FF9F9F;
+$lightPurple: #DCD6F7;
 
 .auth {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: $lightRed;
+  background-color: $lightPurple;
   height: 100vh;
 
   h1 {
     font-size: 20px;
-    color: teal;
+    color: #424874;
     margin-bottom: 2px;
   }
 
@@ -18,7 +18,7 @@ $lightRed: #FF9F9F;
     display: flex;
     flex-direction: column;
     padding: 100px;
-    background-color: white;
+    background-color: #F4EEFF;
     width: 200px;
     gap: 20px;
   }
@@ -26,13 +26,14 @@ $lightRed: #FF9F9F;
   input {
     padding: 10px;
     border: none;
+    background-color: transparent;
     border-bottom: 1px solid gray;
   }
 
   button {
     padding: 10px;
     border: none;
-    background-color: teal;
+    background-color: #424874;
     cursor: pointer;
     color: white;
   }

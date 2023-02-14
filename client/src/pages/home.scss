@@ -1,4 +1,4 @@
-$lightRed: #FF9F9F;
+$lightPurple: #DCD6F7;
 
 .home {
 
@@ -24,7 +24,7 @@ $lightRed: #FF9F9F;
           content: "";
           width: 100%;
           height: 80%;
-          background-color: $lightRed;
+          background-color: $lightPurple;
           position: absolute;
           top: 20px;
           left: -20px;
@@ -59,12 +59,12 @@ $lightRed: #FF9F9F;
           border: none;
           cursor: pointer;
           background-color: white;
-          border: 1px solid teal;
-          color: teal;
+          border: 1px solid #424874;
+          color: #424874;
 
           &:hover {
             border: 1px solid white;
-            background-color: $lightRed;
+            background-color: $lightPurple;
             color: black;
           }
         }

@@ -1,4 +1,4 @@
-$lightRed: #FF9F9F;
+$lightPurple: #DCD6F7;
 
 .menu {
   flex: 2;
@@ -32,12 +32,12 @@ $lightRed: #FF9F9F;
       border: none;
       cursor: pointer;
       background-color: white;
-      border: 1px solid teal;
-      color: teal;
+      border: 1px solid #424874;
+      color: #424874;
 
       &:hover {
         border: 1px solid white;
-        background-color: $lightRed;
+        background-color: $lightPurple;
         color: black;
       }
     }
