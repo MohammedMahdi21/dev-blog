@@ -1,11 +1,11 @@
-$lightGreen: #b9e7e7;
+$lightRed: #FF9F9F;
 
 .auth {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: $lightGreen;
+  background-color: $lightRed;
   height: 100vh;
 
   h1 {

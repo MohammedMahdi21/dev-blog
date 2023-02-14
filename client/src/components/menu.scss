@@ -1,4 +1,4 @@
-$lightGreen: #b9e7e7;
+$lightRed: #FF9F9F;
 
 .menu {
   flex: 2;
@@ -37,7 +37,7 @@ $lightGreen: #b9e7e7;
 
       &:hover {
         border: 1px solid white;
-        background-color: $lightGreen;
+        background-color: $lightRed;
         color: black;
       }
     }

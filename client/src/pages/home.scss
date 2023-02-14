@@ -1,4 +1,4 @@
-$lightGreen: #b9e7e7;
+$lightRed: #FF9F9F;
 
 .home {
 
@@ -23,8 +23,8 @@ $lightGreen: #b9e7e7;
         &::after {
           content: "";
           width: 100%;
-          height: 100%;
-          background-color: $lightGreen;
+          height: 80%;
+          background-color: $lightRed;
           position: absolute;
           top: 20px;
           left: -20px;
@@ -55,6 +55,7 @@ $lightGreen: #b9e7e7;
         button {
           width: max-content;
           padding: 10px 20px;
+          margin: 25px;
           border: none;
           cursor: pointer;
           background-color: white;
@@ -63,7 +64,7 @@ $lightGreen: #b9e7e7;
 
           &:hover {
             border: 1px solid white;
-            background-color: $lightGreen;
+            background-color: $lightRed;
             color: black;
           }
         }
