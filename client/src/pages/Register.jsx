@@ -40,7 +40,7 @@ function Register() {
         <span>
           Do you have an account?
           {' '}
-          <Link to="/Login">Register</Link>
+          <Link to="/Login">Login</Link>
         </span>
       </form>
     </div>
