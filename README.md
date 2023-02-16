@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Dev Blog</h1>
-  <img src="https://i.imgur.com/0gLkzFF.png" alt="Dev Blog Screenshot">
+  <img src="https://github.com/MohammedMahdi21/dev-blog/blob/main/client/docs/dev-blog-logo.png?raw=true" alt="Dev Blog Screenshot" width="50%">
 </div>
 
 ## Table of Contents
