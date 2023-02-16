@@ -57,11 +57,11 @@ Once you have the app running, you can create a new account or log in with an ex
 ## Screenshots
 
 <div align="center">
-  <img src="https://i.imgur.com/gM37jvZ.png" alt="Login Screenshot" width="45%">
-  <img src="https://i.imgur.com/w9XOMUI.png" alt="Post List Screenshot" width="45%">
-  <img src="https://i.imgur.com/lN5v5J5.png" alt="Post Detail Screenshot" width="45%">
+  <img src="https://github.com/MohammedMahdi21/dev-blog/blob/main/client/docs/Login.png" alt="Login Screenshot" width="45%">
+  <img src="https://github.com/MohammedMahdi21/dev-blog/blob/main/client/docs/Register.png" alt="Register Screenshot" width="45%">
+  <img src="https://github.com/MohammedMahdi21/dev-blog/blob/main/client/docs/Login.png" alt="Post List Screenshot" width="45%">
+  <img src="https://github.com/MohammedMahdi21/dev-blog/blob/main/client/docs/Post-page.png" alt="Post Detail Screenshot" width="45%">
   <img src="https://i.imgur.com/7VREmI0.png" alt="Post Creation Screenshot" width="45%">
-  <img src="https://i.imgur.com/tX9sWnT.png" alt="Post Editing Screenshot" width="45%">
 </div>
 
 ## Dependencies
